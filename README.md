@@ -1,1 +1,3 @@
 # PasswordGen
+
+Python script generates a random password based on user preferences for including uppercase letters, symbols, and numbers, as well as the desired password length. Using the random module, the script employs a for loop that iterates as many times as the desired password length. Within the loop, the script uses conditional statements to determine the character type to add to the password, based on the user's choices. It generates random numbers to select characters from predefined sets of uppercase letters, symbols, lowercase letters, and numbers, and concatenates these characters to form the final password. Once the loop completes, the script prints the generated password to the console, meeting the specified criteria as per the user's preferences.
